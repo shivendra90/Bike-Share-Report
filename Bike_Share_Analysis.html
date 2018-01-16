@@ -12821,7 +12821,7 @@ For Washington, subscribers took an average of 12.0 minutes while customers took
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As a sidenote, it is important to note the skewness of a given distribution. The plot starting from <strong><em>In[31]</em></strong> seems to be skewed towards the left side indicating a negative skewness (mean is less than the mode). To some, it might look unclear since there are two bars between 5m and 10m that could suggest that the distribution is bimodal. However, running the same plot with fewer bins will make the picture clearer.</p>
+<p>As a sidenote, it is important to note the skewness of a given distribution. The plot starting from <strong><em>In[31]</em></strong> seems to be skewed towards the left side indicating a positively skewed distribution (mean is less than the mode). To some, it might look unclear since there are two bars between 5m and 10m that could suggest that the distribution is bimodal. However, running the same plot with fewer bins makes the shape of the distribution clearer.</p>
 
 </div>
 </div>
@@ -12884,7 +12884,7 @@ For Washington, subscribers took an average of 12.0 minutes while customers took
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Decreasing the bins makes the data less accurate when it comes to plotting the exact values although it gives a better picutre of the shape or the spread of the distribution. While keeping the bins at 50 made the histogram look as if it could be bimodal, decreasing the bins to 10 still provides a similar conclusion; although this time the spread of the histogram is clearer that it's skewed towards the left.</p>
+<p>Decreasing the bins makes the data less accurate when it comes to plotting the exact values although it gives a better picutre of the shape or the spread of the distribution. While keeping the bins at 50 made the histogram look as if it could be bimodal, decreasing the bins to 10 still provides a similar conclusion; although this time the spread of the histogram is clearer that it's skewed towards the right.</p>
 
 </div>
 </div>
@@ -12970,7 +12970,7 @@ For Washington, subscribers took an average of 12.0 minutes while customers took
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is a highly skewed distribution with most of the observations lying within 0-30 minutes of the x-axis. It is understandable; since the above plot refers to data for New York that had almost 88% of subscribers' data, it can well be said that because subscribers form the majority of the plot, a single bar is bound to exist.</p>
+<p>This is a highly skewed distribution to the right. One could measure its measure of skewness and its value would come out to be extremely positive. The shape of the distribution again points out that almost 90% of the data for New York pertains to users remaining within 30 minutes of their trip duraions.</p>
 
 </div>
 </div>
@@ -13090,7 +13090,7 @@ For Washington, subscribers took an average of 12.0 minutes while customers took
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer 5:</strong> I selected the data for Washington City because its got a reasonable size for the processing to be reasonable as well. The frequency distribution give a very clear picture. Customers certainly seem to have fewer limits when it comes to trip durations as can be seen from the graph in orange. Its more bell shaped and gaussian looking. On the contrary, the graph in blue relates to subscribers' distribution and one can clearly see the skewness in the data. Subscribers certainly restraint themselves from taking longer rides probably because of the charges that accrue for rides longer than half an hour. While subscribers tend to take trips within 30 minutes, this is not xactly the case with customers who are more comfortable taking longer trips (well above 50 minutes for some).</p>
+<p><strong>Answer 5:</strong> I selected the data for Washington City because its got a reasonable size for the processing to be reasonable as well. The frequency distribution give a very clear picture. Customers certainly seem to have fewer limits when it comes to trip durations as can be seen from the graph in orange. Its more bell shaped and gaussian looking. On the contrary, the graph in blue relates to subscribers' distribution and one can see the skewness there. Subscribers certainly restraint themselves from taking longer rides because of several factors like the compounding charges for rides longer than 30 minutes. While subscribers tend to take trips within 30 minutes, customers</p>
 <p>However, both data are skewed to the left with customers' data more spread out suggesting the limiting preferences for subcribers.</p>
 
 </div>
@@ -13447,7 +13447,7 @@ PDF (.pdf). You may need additional packages or software to perform these export
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">call</span>
@@ -13464,7 +13464,7 @@ PDF (.pdf). You may need additional packages or software to perform these export
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[1]:</div>
+<div class="prompt output_prompt">Out[2]:</div>
 
 
 
